@@ -1,0 +1,103 @@
+*{margin: 0; padding: 0;}
+
+#top_nav {
+    width: calc(100% - 40px);
+    padding: 20px 20px;
+    color: white;
+    height: 26px;
+    position: fixed;
+    background-color: rgba(0,0,0,.8);
+}
+
+#f_nav {
+    height: 100%;
+    width: 300px;
+    background-color: rgba(230,230,230,.5);
+    position: fixed;
+    border: solid 1px lightgray;
+    display: inline-block;
+    color: white;
+}
+
+
+
+
+.f_nav_sectorBox {
+    padding: 20px;
+    background-color: white;
+    border-top: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+    margin-bottom: -1px;
+    color: black;
+    
+}
+
+.f_nav_sectorTop {
+    padding: 32.5px;
+    background-color: black;
+}
+
+#profile_imgframe {
+    height: 60px;
+    width: 60px;
+    background-color: gray;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+#profile_txtframe {
+    height: 50px;
+    width: 170px;
+    position: absolute;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+#settingsIcon {
+    width: 20px;
+    margin-left: 70px;
+}
+
+#searchBar_container {
+    position: relative;
+    top: -10px;
+    padding: 5px 15px;
+    height: calc(100% - 10px);
+    position: relative;
+    display: inline;
+    margin-left: 100px;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(0,0,0,0.8);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(0,0,0,0.8);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(0,0,0,0.8);
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(0,0,0,0.8);
+}
+#searchBar {
+    width: 200px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: rgba(0,0,0,0.8);
+    font-size: .8em;   
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.8);
+}
+
+.f_nav_icon {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+}
